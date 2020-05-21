@@ -158,3 +158,44 @@ TABLESPACE pg_default;
 
 ALTER TABLE public.pitching
     OWNER to postgres;
+
+-- Creation of the pitchingpost table
+
+CREATE TABLE public.pitchingpost
+(
+    playerid character varying COLLATE pg_catalog."default",
+    yearid numeric,
+    round character varying COLLATE pg_catalog."default",
+    teamid character varying COLLATE pg_catalog."default",
+    lgid character varying COLLATE pg_catalog."default",
+    w numeric,
+    l numeric,
+    g numeric,
+    gs numeric,
+    cg numeric,
+    sho numeric,
+    sv numeric,
+    ipouts numeric,
+    h numeric,
+    er numeric,
+    hr numeric,
+    bb numeric,
+    so numeric,
+    baopp numeric,
+    era character varying COLLATE pg_catalog."default",
+    ibb numeric,
+    wp numeric,
+    hbp numeric,
+    bk numeric,
+    bfp numeric,
+    gf numeric,
+    r numeric,
+    sh numeric,
+    sf numeric,
+    gidp numeric
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.pitchingpost
+    OWNER to postgres;
