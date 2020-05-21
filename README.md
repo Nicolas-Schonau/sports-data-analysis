@@ -15,3 +15,5 @@ The files have been downloaded in .csv format and, for the purpose of this exerc
 ## Case
 
 The first few queries of the [analysis.sql file](https://github.com/Nicotops/SQL-and-the-Major-League-Baseball/blob/master/analysis.sql) aim to recreate some of the MLB's All time records, such as a list of all players with at least 155 runs scored in one season, all players with 1800+ career runs scored or the pitcher with the most wins in a season.
+
+**Note**: for some reason, the data show some discrepancies with the ones that can be found on [mlb.com/stats](https://www.mlb.com/stats/), but they all comply with the ones on [Baseball-Reference](https://www.baseball-reference.com/).
