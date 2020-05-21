@@ -1,4 +1,4 @@
-# SQL-Baseball
+# SQL and the Major League Baseball
 Some sql code to exploit the data of the MLB.
 
 All data provided by http://www.seanlahman.com/baseball-archive/statistics/
