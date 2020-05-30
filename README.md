@@ -1,5 +1,5 @@
-# SQL and the Major League Baseball
-The aim of this repository is to show some SQL queries that can be used to analyze the data of the MLB.
+# SQL, Python and the Major League Baseball
+The aim of this repository is to show how SQL queries and Python can be used to analyze the data of the MLB.
 
 ## Database system
 The database system used here is [PostgreSQL](https://www.postgresql.org/about/) 12, and the queries have been run directly in [PgAdmin 4](https://www.pgadmin.org/), the management tool for Postgres.
