@@ -12,7 +12,7 @@ All the data come from the [Lahman's Baseball Database](http://www.seanlahman.co
 
 The files have been downloaded in .csv format and, for the purpose of this exercise, only a few of them have been uploaded to the database i.e.: `batting`, `people`, `teams`,`pitching`and `pitchingpost`. All the code necessary to create the tables can be found in the [tables_creations.sql file](https://github.com/Nicotops/SQL-and-the-Major-League-Baseball/blob/master/tables_creation.sql).
 
-## Case
+## Cases
 
 The first few queries of the [analysis.sql file](https://github.com/Nicotops/SQL-and-the-Major-League-Baseball/blob/master/analysis.sql) aim to recreate some of the MLB's All time records, such as :
 - a list of all players with at least 155 runs scored in one season
@@ -21,9 +21,10 @@ The first few queries of the [analysis.sql file](https://github.com/Nicotops/SQL
 
 **Note**: for some reason, the data show some discrepancies with the ones that can be found on [mlb.com/stats](https://www.mlb.com/stats/), but they all comply with the ones on [Baseball-Reference](https://www.baseball-reference.com/).
 
-## Example: Analysis on the leader in strike-outs
+## Example: Full break-down on an analysis on the leader in strike-outs
 
-So the objective of this query is to get, per year, the name of the player with the most strike-outs (regular season and post-season included) with his actual number of strike-outs.
+The objective of this article is to show how the tables can be queried to get valuable information. We'll try here to get, per year, the name of the player with the most strike-outs (regular season and post-season included) with his actual number of strike-outs.
+
 This query in an interesting one to break down, because it combines several files who don't always have the same structure. The ```pitching``` table contains a line per player and per year for the regular season, meaning every stats of a player for a particular season is on a single line. the ```pitchingpost``` table, on the contrary, details the results per match, meaning that for a single post-season, we'll have several lines to add. 
 
 Let's start by querying the ```playerid```, ```yearid``` and ```so``` from the ```pitching``` table to get the number of strike-outs per player and per year, with a limit on 10 results just for the example:
@@ -111,3 +112,6 @@ And voilà!
 |	Clayton Kershaw	|	2015	|	320	|
 
 For the full results, just delete the ```LIMIT``` clause and you'll have the complete results.
+
+## Python use 
+SQL and Python can be both used at the same time to perform some calculations on the data and get some visualisations. A Jupyter notebook is available to explain how both languages can be used in order to answer the question: "Can money buy wins?"
