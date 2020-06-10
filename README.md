@@ -1,5 +1,5 @@
 # Major League Baseball and data analysis
-The aim of this repository is to show how SQL queries and Python can be used to analyze the data of the MLB.
+The aim of this repository is to show how tools such as SQL, Python and PowerBi can be used to analyze the data of the MLB.
 
 ## SQL
 
@@ -35,4 +35,4 @@ SQL and Python can be used at the same time to perform some calculations on the 
 
 ### Case: Pitchers' stats and styles
 
-Based on the data imported in the PostgreSQl database, a PowerBi dashboard presents the pitching stats for the 2019 season, along with more detailed informations on the style of each pitcher. The dashboard can be consulted [online](https://app.powerbi.com/view?r=eyJrIjoiNjU4ZGQ3ZGItMTY4MC00NDE5LWFjN2ItY2FkZDM2NWY3NTg2IiwidCI6IjU2OTI1ZTJjLWVjZmYtNDllYi1iYmYwLWU2YTNiM2NmYzg1YyJ9), and the .pbix file can be downloaded [here](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/Pitching_stats_and_styles.pbix].
+Based on the data imported in the PostgreSQl database, a PowerBi dashboard presents the pitching stats for the 2019 season, along with more detailed informations on the style of each pitcher. The dashboard can be consulted [online](https://app.powerbi.com/view?r=eyJrIjoiNjU4ZGQ3ZGItMTY4MC00NDE5LWFjN2ItY2FkZDM2NWY3NTg2IiwidCI6IjU2OTI1ZTJjLWVjZmYtNDllYi1iYmYwLWU2YTNiM2NmYzg1YyJ9), and the .pbix file can be downloaded [here](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/Pitching_stats_and_styles.pbix).
