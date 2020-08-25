@@ -1,0 +1,6 @@
+-- Pitcher with the most strike-outs per season (post-season not included)
+
+SELECT DISTINCT ON (yearid) 
+	playerid,yearid,so
+FROM pitching
+ORDER BY yearid DESC, so DESC;
