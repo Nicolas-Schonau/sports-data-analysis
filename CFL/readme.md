@@ -1,6 +1,10 @@
 # Canadian Football League 
 In this folder, you will find the code used to export the play-by-play data of the CFL API.
 
+## CFL API
+
+The [CFL API](https://api.cfl.ca/docs) "offers full access to the league's database of statistical information going back to 2004. It is a RESTful API that implements the JSON API specification."
+
 ## [Guide for play-by-play data](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/CFL/Guide_API_play_by_play.ipynb)
 
 This is a detailed, step-by-step guide on how to export all the play-by-play data of the CFL via their API. You will need to ask for a private key to connect to the API, after that you can use the code to export all the data you are interested into.
