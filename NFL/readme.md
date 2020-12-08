@@ -8,11 +8,15 @@ All the data for these analysis come from the [nflfastR](https://github.com/mrca
 The majority of the visualisations produced by the code here can be found on [skillalytics.com](http://skillalytics.com/stats/nfl-quarterbacks/).
 
 ## Win Probability added
-WPA "is a metric that measures how much more likely a team is to win a game after a given play."([source](https://medium.com/@hajimealabanza/did-the-new-orleans-saints-add-the-missing-piece-to-their-offense-fe9bb2f37116)). In other words, each action impacts the probabilities to win the game, either positively or negatively. This impact is quantified and recorded as "WPA", "Win Probability Added". WPA is "context-sensitive": a TD on the 1st possession of the game versus a TD  with 5 seconds remaining while trailing less than 6 will have totally different impacts on the Win Probability. 
+WPA "is a metric that measures how much more likely a team is to win a game after a given play"([source](https://medium.com/@hajimealabanza/did-the-new-orleans-saints-add-the-missing-piece-to-their-offense-fe9bb2f37116)). In other words, each action impacts the probabilities to win the game, either positively or negatively. This impact is quantified and recorded as "WPA", "Win Probability Added". 
+
+WPA is "context-sensitive": a TD on the 1st possession of the game versus a TD  with 5 seconds remaining while trailing less than 6 will have totally different impacts on the Win Probability. 
 
 The first notebook in this folder presents a global table with the average WPA of each passing play for QBs that have at least 25 pass attempts on the season. The second one displays the WPA for a combination of passe distances (short or deep) and locations (deep, middle or right) on heatmaps. This gives a direct understanding of the most impactful passes of the QB. An additional notebook focus on the results of 3 rookies QB, i.e.: Joe Burrow, Tua Tagovailoa and Justin Herbert.
 
 ## Expected Points Added
-EPA is a metric that calculates the difference between the points that a team is expected to score based on their down-and-distance info (plus other parameters) at a given moment, and the expected points after an action occurred. Offenses get positive EPA if they perform well, while defenses get negative EPA if they can block the other team. Unlike WPA, EPA is not sensitive to context: a 1st-and-goal on the 2 yards line of your opponent endzone will give you the same expected points, wether it be at the beginning of the game or at the end.
+EPA is a metric that calculates the difference between the points that a team is expected to score based on their down-and-distance info (plus other parameters) at a given moment, and the expected points after an action occurred. Offenses get positive EPA if they perform well, while defenses get negative EPA if they can block the other team. 
+
+Unlike WPA, EPA is not sensitive to context: a 1st-and-goal on the 2 yards line of your opponent endzone will give you the same expected points, wether it be at the beginning of the game or at the end.
 
 The first notebook in this folder presents a global table with the average EPA of each passing play for QBs that have at least 25 pass attempts on the season. The second one displays the EPA for a combination of passe distances (short or deep) and locations (deep, middle or right) on heatmaps. This gives a direct understanding of the most impactful passes of the QB.
