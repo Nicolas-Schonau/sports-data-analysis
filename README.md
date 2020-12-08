@@ -1,7 +1,11 @@
 # Sports data analysis
 
-## Aim
-In this repository, you will find some of my works in sports data analysis. 
+## Goal
+The goal of this repository is to present the code used in my different projets on sports data analysis.
+The code is mainly written in Python, but some SQL and Power Bi dashboards are also used.
+
+In terms of sports, the current analysis deal with Major League Baseball, the National Football League and the Canadian Football League.
+In the future, complementary analysis on cricket, hockey or other sports will be displayed.
 
 ## MLB
 The MLB folder focuses on SQL queries in order to explore the data gathered for the 2019 season. 
