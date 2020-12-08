@@ -12,13 +12,13 @@ The data come from the [Lahman's Baseball Database](http://www.seanlahman.com/ba
 
 ### Creation of the tables
 
-The files have been downloaded in .csv format and, for the purpose of this exercise, only a few of them have been uploaded to the database i.e.: `batting`, `people`, `teams`,`pitching`and `pitchingpost`. All the code necessary to create the tables can be found in the [tables_creations.sql file](https://github.com/Nicotops/SQL-and-the-Major-League-Baseball/blob/master/tables_creation.sql).
+The files have been downloaded in .csv format and, for the purpose of this exercise, only a few of them have been uploaded to the database i.e.: `batting`, `people`, `teams`,`pitching`and `pitchingpost`. All the code necessary to create the tables can be found in the [tables_creations.sql file](https://github.com/Nicotops/SQL-and-the-Major-League-Baseball/blob/master/MLB/tables_creation.sql).
 
 ### Cases
 
-In order to understand how SQL can help us query this dataset to give us meaningful insights, a [Jupyter notebook](https://github.com/Nicolas-Schonau/SQL-Python-and-the-Major-League-Baseball/blob/master/guide_to_query_the_data_with_sql.ipynb) breaks down all the steps necessary to make an analysis on the leader in terms of strike-outs.
+In order to understand how SQL can help us query this dataset to give us meaningful insights, a [Jupyter notebook](https://github.com/Nicolas-Schonau/SQL-Python-and-the-Major-League-Baseball/blob/master/MLB/guide_to_query_the_data_with_sql.ipynb) breaks down all the steps necessary to make an analysis on the leader in terms of strike-outs.
 
-The other queries in the [analysis.sql file](https://github.com/Nicotops/SQL-and-the-Major-League-Baseball/blob/master/analysis.sql) aim to recreate some of the MLB's All time records, such as :
+The other queries in the [analysis.sql file](https://github.com/Nicotops/SQL-and-the-Major-League-Baseball/blob/master/MLB/analysis.sql) aim to recreate some of the MLB's All time records, such as :
 - a list of all players with at least 155 runs scored in one season
 - all players with 1800+ career runs scored 
 - the pitcher with the most wins in a season.
