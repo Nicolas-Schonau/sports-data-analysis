@@ -12,7 +12,7 @@ WPA "is a metric that measures how much more likely a team is to win a game afte
 
 WPA is "context-sensitive": a TD on the 1st possession of the game versus a TD  with 5 seconds remaining while trailing less than 6 will have totally different impacts on the Win Probability. 
 
-### [QB ranking](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/WPA/QB_ranking_by_WPA_all_season.ipynb)
+#### [QB ranking](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/WPA/QB_ranking_by_WPA_all_season.ipynb)
 The first notebook in this folder presents a global table with the average WPA of each passing play for QBs that have at least 25 pass attempts on the season. 
 
 ### [Heatmaps per pass type](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/WPA/Heatmap_all_qb_wpa.ipynb)
