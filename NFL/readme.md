@@ -15,10 +15,10 @@ WPA is "context-sensitive": a TD on the 1st possession of the game versus a TD  
 #### [QB ranking](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/WPA/QB_ranking_by_WPA_all_season.ipynb)
 The first notebook in this folder presents a global table with the average WPA of each passing play for QBs that have at least 25 pass attempts on the season. 
 
-### [Heatmaps per pass type](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/WPA/Heatmap_all_qb_wpa.ipynb)
+#### [Heatmaps per pass type](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/WPA/Heatmap_all_qb_wpa.ipynb)
 The second one displays the WPA for a combination of passe distances (short or deep) and locations (deep, middle or right) on heatmaps. This gives a direct understanding of the most impactful passes of the QB. 
 
-### [Rookies](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/WPA/impact_rookie_qbs_2020.ipynb)
+#### [Rookies](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/WPA/impact_rookie_qbs_2020.ipynb)
 An additional notebook focus on the results of 3 rookies QB, i.e.: Joe Burrow, Tua Tagovailoa and Justin Herbert.
 
 ## [Expected Points Added](https://github.com/Nicolas-Schonau/sports-data-analysis/tree/master/NFL/EPA)
@@ -26,4 +26,11 @@ EPA is a metric that calculates the difference between the points that a team is
 
 Unlike WPA, EPA is not sensitive to context: a 1st-and-goal on the 2 yards line of your opponent endzone will give you the same expected points, wether it be at the beginning of the game or at the end.
 
-The first notebook in this folder presents a global table with the average EPA of each passing play for QBs that have at least 25 pass attempts on the season. The second one displays the EPA for a combination of passe distances (short or deep) and locations (deep, middle or right) on heatmaps. This gives a direct understanding of the most impactful passes of the QB.
+#### [QB ranking](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/EPA/QB_ranking_by_EPA.ipynb)
+The first notebook in this folder presents a global table with the average EPA of each passing play for QBs that have at least 25 pass attempts on the season. 
+
+#### [Heatmap per pass type](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/EPA/Heatmap_all_qb_epa.ipynb)
+The second one displays the EPA for a combination of passe distances (short or deep) and locations (deep, middle or right) on heatmaps. This gives a direct understanding of the most impactful passes of the QB.
+
+#### [Offensive EPA vs Defensive EPA](https://github.com/Nicolas-Schonau/sports-data-analysis/blob/master/NFL/EPA/Teams_off_epa_vs_def_epa.ipynb)
+This notebook provides the cood to calculate the EPA for the offense and defense squads of each teams and displays them on a scatter plot.
